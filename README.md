@@ -1,4 +1,4 @@
-live: [cravesteak.vercel.app](cravesteak.vercel.app)
+live: [Visit the CraveSteak website](https://cravesteak.vercel.app)
 
 # CraveSteak 
 
