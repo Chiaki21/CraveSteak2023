@@ -1,4 +1,4 @@
-live: cravesteak.vercel.app
+live: [cravesteak.vercel.app]
 
 # CraveSteak 
 
