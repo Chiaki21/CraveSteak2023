@@ -168,3 +168,23 @@ window.addEventListener("mousemove", function (event) {
   }
 
 });
+
+// Get the modal element and the close button
+var modal = document.getElementById('myModal');
+var closeModal = document.getElementById('closeModal');
+
+// Show the modal when the page is loaded
+window.addEventListener('load', function() {
+    modal.style.display = 'block';
+});
+
+// Close the modal when the close button or outside of the modal is clicked
+modal.addEventListener('click', function(event) {
+    if (event.target === modal) {
+        modal.style.display = 'none';
+    }
+});
+
+closeModal.addEventListener('click', function() {
+    modal.style.display = 'none';
+});
